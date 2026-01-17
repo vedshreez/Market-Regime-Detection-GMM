@@ -1,4 +1,4 @@
-# Market Regime Detection via Gaussian Mixture Models (GMM) 📊
+# Market Regime Detection via Gaussian Mixture Models (GMM)
 
 **Status:** Completed (Dec 2025)
 **Tech Stack:** Python (Scikit-Learn, PCA), Bloomberg Data, FRED API
