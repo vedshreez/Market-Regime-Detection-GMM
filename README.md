@@ -58,11 +58,13 @@ Our model successfully identified two distinct volatility regimes:
 ## 4. Execution Roadmap (How to Run)
 To replicate this analysis, follow this sequence:
 
-### Step 1: Environment Setup
+### Step 1: Environment Setup 
 ```bash
 pip install -r requirements.txt
 
-### Step 2: Data Initialization
+---
+
+### **Step 2**: Data Initialization
 * **Database:** Run `python init_db.py` to set up the SQLite storage.
 * **Ingestion:** Run `python load_fred.py` and `python load_bloomberg.py` to fetch raw indicators.
 
