@@ -1,4 +1,4 @@
-# Market Regime Detection via Gaussian Mixture Models (GMM) 📊
+# Market Regime Detection via Gaussian Mixture Models (GMM)
 
 **Status:** Completed (Dec 2025)
 **Tech Stack:** Python (Scikit-Learn, PCA), Bloomberg Data, FRED API
@@ -62,25 +62,25 @@ To replicate this analysis, follow this sequence:
 ```bash
 pip install -r requirements.txt
 
-### Step 2: Data Initialization
+###  Step 2: Data Initialization
 Database: Run python init_db.py to set up the SQLite storage.
 
 Ingestion: Run python load_fred.py and python load_bloomberg.py to fetch raw indicators.
 
-Step 3: Feature Engineering
+### Step 3: Feature Engineering
 Run python compute_returns.py to calculate log-returns and rolling volatility.
 
 Run python pca.py to compress the 52 factors into Principal Components.
 
-Step 4: Model Training (GMM)
+### Step 4: Model Training (GMM)
 Run the clustering algorithm:
 
-Bash
+```bash
 python gmm.py --start 1995-01-01 --kmin 2 --kmax 6
 Step 5: Validation
 Run python regime_correlation_validation.py to verify that the regimes have statistically different correlation matrices.
 
-5. References
+## 5. References
 Two Sigma: A Machine Learning Approach to Regime Modeling
 
 Ang, A., & Bekaert, G. (2002): "Regime Switches in Interest Rates." Journal of Business & Economic Statistics.
