@@ -3,6 +3,16 @@
 **Status:** Completed (Dec 2025)
 **Tech Stack:** Python (Scikit-Learn, PCA), Bloomberg Data, FRED API
 
+## Table of Contents
+1. [Executive Summary](#1-executive-summary)
+2. [Key Results (The "Alpha")](#2-key-results-the-alpha)
+3. [Methodology](#3-methodology)
+    * [Data Engineering](#a-data-engineering)
+    * [Dimensionality Reduction (PCA)](#b-dimensionality-reduction-pca)
+    * [GMM Clustering](#c-gmm-clustering)
+4. [Repository Structure](#4-repository-structure)
+5. [Credits](#5-credits)
+   
 ## 1. Executive Summary
 Financial markets exhibit distinct "regimes"—periods of calm (low correlation) vs. crisis (high correlation). Traditional models often fail to detect these shifts early.
 
